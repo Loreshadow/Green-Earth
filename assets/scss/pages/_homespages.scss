@@ -1,10 +1,12 @@
 @use "../abstracts/variables" as var;
 @use "../base/base";
+@use "../components/project-card";
 
 // section presentation 
 #presentation {
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
     .presentation-content {
         display: flex;
         flex-direction: column;
@@ -39,5 +41,17 @@
         position: absolute;
         right: -1.5%;
         bottom: -1.5%;
+    }
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5%;
+    .project-card {
+        margin-bottom: 2.5%;
     }
 }

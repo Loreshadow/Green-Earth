@@ -1,5 +1,6 @@
 body {
   font-style: "DMSans Regular";
+  background-color: #f5e8d7;
 }
 
 h1 {
@@ -51,9 +52,17 @@ header .logo-container img {
   width: 65%;
 }
 
+.project-cards {
+  width: 20%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+}
+
 #presentation {
   display: flex;
   justify-content: center;
+  margin-bottom: 10%;
 }
 #presentation .presentation-content {
   display: flex;
@@ -89,6 +98,18 @@ header .logo-container img {
   position: absolute;
   right: -1.5%;
   bottom: -1.5%;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5%;
+}
+.card-container .project-card {
+  margin-bottom: 2.5%;
 }
 
 /*# sourceMappingURL=style.css.map */
