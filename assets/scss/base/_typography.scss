@@ -1,0 +1,7 @@
+@use "../abstracts/variables" as var;
+
+
+@font-face {
+    font-family: var.$principal-font;
+    src: url(../fonts/DM_Sans/static/DMSans_18pt-Regular.ttf);
+}
