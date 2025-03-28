@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as var;
+@use "../base/base";
+
+// header 
+header {
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+    align-items: center;
+    .logo-container {
+        width: 10%;
+        img {
+            width: 65%;
+        }
+    }
+}
+
+// section presentation 
+

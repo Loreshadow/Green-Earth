@@ -1,6 +1,94 @@
+body {
+  font-style: "DMSans Regular";
+}
+
+h1 {
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "DMSans Regular";
   src: url(../fonts/DM_Sans/static/DMSans_18pt-Regular.ttf);
+}
+.menu-item {
+  background: linear-gradient(to right, #0F513A, #71982B);
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.25rem;
+}
+
+.cta {
+  background-color: #054D3B;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.25rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 50%;
+  align-items: center;
+}
+header .logo-container {
+  width: 10%;
+}
+header .logo-container img {
+  width: 65%;
+}
+
+#presentation {
+  display: flex;
+  justify-content: center;
+}
+#presentation .presentation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 40%;
+}
+#presentation .presentation-content p:first-of-type {
+  font-size: 2rem;
+  margin: 0;
+}
+#presentation .presentation-content h1 {
+  margin: 0;
+}
+#presentation .presentation-img-container {
+  width: 30%;
+  height: 40vh;
+  z-index: 1;
+  position: relative;
+  border-top-left-radius: 15px;
+}
+#presentation .presentation-img-container img {
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+#presentation .img-background {
+  width: 100%;
+  height: 100%;
+  background-color: #054d3b;
+  z-index: -1;
+  position: absolute;
+  right: -1.5%;
+  bottom: -1.5%;
 }
 
 /*# sourceMappingURL=style.css.map */

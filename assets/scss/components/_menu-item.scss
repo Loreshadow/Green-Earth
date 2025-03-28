@@ -1,0 +1,9 @@
+@use "../base/base";
+
+.menu-item {
+    background: linear-gradient(to right, #0F513A, #71982B);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.25rem;
+}

@@ -6,7 +6,12 @@
 @use "base/base";
 @use "base/typography";
 
+// components 
+@use "components/menu-item";
+@use "components/cta";
+
 // layout 
 @use "layout/header";
 
 // pages 
+@use "pages/homespages";
