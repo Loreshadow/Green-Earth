@@ -1,10 +1,11 @@
 body {
   font-style: "DMSans Regular";
   background-color: #f5e8d7;
+  margin: 0;
 }
 
 h1 {
-  font-size: 2.75rem;
+  font-size: 3.75rem;
 }
 
 h2 {
@@ -63,6 +64,7 @@ header .logo-container img {
   display: flex;
   justify-content: center;
   margin-bottom: 10%;
+  margin-top: 5%;
 }
 #presentation .presentation-content {
   display: flex;
@@ -70,7 +72,7 @@ header .logo-container img {
   align-items: center;
   justify-content: center;
   text-align: left;
-  width: 40%;
+  width: 30%;
 }
 #presentation .presentation-content p:first-of-type {
   font-size: 2rem;
@@ -100,6 +102,10 @@ header .logo-container img {
   bottom: -1.5%;
 }
 
+.projet-heading {
+  margin-left: 12.5%;
+}
+
 .card-container {
   display: flex;
   align-items: center;
@@ -108,8 +114,33 @@ header .logo-container img {
   width: 100%;
   gap: 5%;
 }
-.card-container .project-card {
+.card-container .project-cards {
   margin-bottom: 2.5%;
+}
+
+.mission-banner-container {
+  background-image: url(../img/farmer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+}
+.mission-banner-container .mission-banner-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  border-radius: 10px;
+  padding: 4.5%;
+  position: relative;
+  top: 25%;
+  left: 10%;
+  font-size: 1.25rem;
+}
+.mission-banner-container .mission-banner-content .list-container {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

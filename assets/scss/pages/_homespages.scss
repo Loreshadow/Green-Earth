@@ -7,13 +7,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
+    margin-top: 5%;
     .presentation-content {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: left;
-        width: 40%;
+        width: 30%;
         p:first-of-type {
             font-size: 2rem;
             margin: 0;
@@ -44,6 +45,12 @@
     }
 }
 
+// section projet 
+
+.projet-heading {
+    margin-left: 12.5%;
+}
+
 .card-container {
     display: flex;
     align-items: center;
@@ -51,7 +58,33 @@
     flex-wrap: wrap;
     width: 100%;
     gap: 5%;
-    .project-card {
+    .project-cards {
         margin-bottom: 2.5%;
+    }
+}
+
+// section mission 
+.mission-banner-container {
+    background-image: url(../img/farmer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    width: 100%;
+    .mission-banner-content {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        border-radius: 10px;
+        padding: 4.5%;
+        position: relative;
+        top: 25%;
+        left: 10%;
+        font-size: 1.25rem;
+        .list-container {
+            display: flex;
+        }
     }
 }
