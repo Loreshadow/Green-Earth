@@ -5,4 +5,10 @@
     border-radius: 10px;
     color: white;
     font-size: 1.25rem;
+    transition: all 0.15s ease-in;
+}
+
+.cta:hover {
+    background-color: #023327cb;
+    box-shadow: 1px 2px 7px 4px rgba(0, 0, 0, 0.285);
 }
