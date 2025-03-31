@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-style: "DMSans Regular";
   background-color: #f5e8d7;
@@ -112,7 +116,7 @@ header .logo-container img {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  gap: 5%;
+  gap: 10%;
 }
 .card-container .project-cards {
   margin-bottom: 2.5%;
@@ -124,22 +128,38 @@ header .logo-container img {
   background-position: center;
   height: 75vh;
   width: 100%;
+  display: flex;
+}
+.mission-banner-container .img-container {
+  width: 50%;
+  height: 25%;
+  border-radius: 10px;
+  padding-top: 2.5%;
+}
+.mission-banner-container .img-container img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 .mission-banner-container .mission-banner-content {
+  display: flex;
   background-color: white;
+  position: relative;
+  top: 12.5%;
+  left: 10%;
+  width: 85%;
+  height: 75%;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 1%;
+}
+.mission-banner-container .mission-banner-content .mission-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 65%;
-  border-radius: 10px;
-  padding: 4.5%;
-  position: relative;
-  top: 25%;
-  left: 10%;
-  font-size: 1.25rem;
+  width: 75%;
 }
-.mission-banner-container .mission-banner-content .list-container {
+.mission-banner-container .mission-banner-content .mission-content .list-container {
   display: flex;
 }
 

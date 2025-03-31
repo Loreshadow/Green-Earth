@@ -1,5 +1,9 @@
 @use "../abstracts/variables" as var;
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-style: var.$principal-font;
     background-color: #f5e8d7;
